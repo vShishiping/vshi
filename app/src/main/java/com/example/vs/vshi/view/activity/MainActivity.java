@@ -1,7 +1,9 @@
-package com.example.vs.vshi;
+package com.example.vs.vshi.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.vs.vshi.R;
 
 public class MainActivity extends AppCompatActivity {
 
