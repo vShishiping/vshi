@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.vs.vshi.utils.ResideLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/my_out"
+    android:background="@mipmap/bg_colorful"
     tools:context=".view.activity.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_mine"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_colorful"
+    ></LinearLayout>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
     <FrameLayout
         android:id="@+id/contenet"
         android:layout_width="match_parent"
@@ -18,6 +32,7 @@
         android:id="@+id/bottom_navigation"
         app:itemIconTint="@drawable/bottom_item"
         app:itemTextColor="@drawable/bottom_item"
+
         app:menu="@xml/bottom_navigation_main"
         android:layout_width="match_parent"
         android:background="@mipmap/bottom_bg"
@@ -25,5 +40,5 @@
         android:layout_weight="0.8"
         android:layout_gravity="bottom"
         />
-
 </LinearLayout>
+</com.example.vs.vshi.utils.ResideLayout>
