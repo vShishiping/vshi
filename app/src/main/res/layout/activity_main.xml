@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/bg_colorful"
     tools:context=".view.activity.MainActivity">
 
     <FrameLayout
@@ -15,6 +16,8 @@
         ></FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
+        android:paddingTop="10dp"
+        android:backgroundTint="@color/colorWhite"
         android:id="@+id/bottom_navigation"
         app:itemIconTint="@drawable/bottom_item"
         app:itemTextColor="@drawable/bottom_item"
