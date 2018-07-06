@@ -69,8 +69,7 @@ dependencies {
     compile 'com.zaaach:toprightmenu:1.1.2'
 
     compile 'com.zhy:autolayout:1.4.5'
-    implementation files('libs/AMap3DMap_6.2.0_AMapSearch_6.1.0_20180427.jar')
-    implementation files('libs/AMap_Location_V4.0.1_20180426.jar')
+
 
 
     //Tab

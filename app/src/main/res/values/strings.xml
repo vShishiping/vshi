@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">vshi</string>
+    <string name="app_name">微影Live</string>
+    <string name="home_search_text">输入你想搜索的内容</string>
+    <string name="mine_login">登陆/注册</string>
+    <string name="frag_home">精选</string>
+    <string name="frag_community">专题</string>
+    <string name="frag_rebate">发现</string>
+    <string name="frag_shopcar">我的</string>
+    <string name="frag_mine">直播</string>
+
+    <string name="title_activity_join_shop_car_">JoinShopCar_Activity</string>
 </resources>
+

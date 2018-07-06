@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/found"
+        android:title="@string/frag_home"
+       />
+    <item
+        android:id="@+id/community"
+        android:icon="@mipmap/special"
+        android:title="@string/frag_community"
+        />
+    <item
+        android:id="@+id/rebate"
+        android:icon="@mipmap/fancy"
+        android:title="@string/frag_rebate"
+        />
+    <item
+        android:id="@+id/shopcar"
+        android:icon="@mipmap/my"
+        android:title="@string/frag_shopcar"
+        />
+    <item
+        android:id="@+id/mine"
+        android:icon="@mipmap/live"
+        android:title="@string/frag_mine"
+        />
+</menu>

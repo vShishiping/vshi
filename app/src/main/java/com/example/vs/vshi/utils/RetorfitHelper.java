@@ -1,7 +1,8 @@
 package com.example.vs.vshi.utils;
 
-import company.pp.com.ppcommunity.base.Constant;
-import company.pp.com.ppcommunity.moudle.net.OkHttpUtil;
+
+import com.example.vs.vshi.base.Constant;
+
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
